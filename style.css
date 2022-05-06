@@ -92,6 +92,7 @@
     box-shadow: 0 1px 5px 2px #99999944;
 }
 
+
 /* buttons styling */
 button{
     font-weight: lighter;
@@ -113,4 +114,18 @@ button:hover{
     font-size: 12px;
     margin: 7px;
 
+}
+
+@media screen and (max-width:900px) {
+    .main-content{
+        padding: 50px 0;
+        margin-top: 30px;
+    }
+
+    
+.searchbar{
+    width: 80%;
+    position: relative;
+    margin-bottom: 30px;
+}
 }
